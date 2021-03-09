@@ -162,7 +162,7 @@ openFullscreen();
 
       <div class="wrapper">
       <h2 class="effect-wrapper" id="me">Hey, I am Aman Priyadarshi <br>
-      I am a second year undergraduate student at Indraprastha institute of Information Technology Delhi, pursuing my bachelors in Computer Science and Design.<br><br>I love to create”, said the twelve year old me and says the seventeen year old me too. Be it an artwork, a solution to some random problem or a robot, I love creating all of these with innovative ideas. I like exploring various domains of design and am particularly interested in <br><span class="typed"></span><span class="cursor">&nbsp;</span></h2>
+      I am a second year undergraduate student at Indraprastha institute of Information Technology Delhi, pursuing my bachelors in Computer Science and Design.<br><br>I love to create”, said the twelve year old me and says the twenty year old me too. Be it an artwork, a solution to some random problem or a robot, I love creating all of these with innovative ideas. I like exploring various domains of design and am particularly interested in <br><span class="typed"></span><span class="cursor">&nbsp;</span></h2>
       </div>
 
     </div>
@@ -175,12 +175,12 @@ openFullscreen();
     const typedSpan = document.querySelector(".typed") // Storing the Span of HTML of Class 'typed' for changing the text
 const totype = ["Digital Illustrations", "Motion Graphics", "UI UX", "Sleeping"] // Array in which all of the words which have to be typed are stored
 
-const delayTyping_char = 80; // 200ms will be waited before next Character of the Text is typed
-const delayErasing_text = 50; // 100ms will be waited before removing the next character
-const delayTyping_text = 500; // 2500ms will be waited before everything is erased & next text is typed
+const delayTyping_char = 80;
+const delayErasing_text = 50;
+const delayTyping_text = 500;
 
-let totypeIndex = 0; // Index of The text which is being typed
-let charIndex = 0; // Index of The Character which is being typed
+let totypeIndex = 0;
+let charIndex = 0;
 
 
 function typeText() {
@@ -224,17 +224,26 @@ if (totype[totypeIndex].length) setTimeout(typeText, delayTyping_text); // typeT
 
 
 
+
+
     <div class="made">
 
-      <h1>THANKS FOR SCROLLING</h1>
 
+      <form id="form" class="topBefore">
+
+          <input id="name" type="text" placeholder="NAME">
+          <input id="email" type="text" placeholder="E-MAIL">
+          <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input id="submit" type="submit" value="SUBMIT">
+
+    </form>
+
+    <h1>THANKS FOR SCROLLING</h1>
 
     </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
