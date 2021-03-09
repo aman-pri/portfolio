@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Aman Priyadarshi | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+<body>
+
+<!-- FOR OPENING WEBPAGE IN FULL SCREEN MODE -->
+<!-- https://www.w3schools.com/jsref/met_element_requestfullscreen.asp -->
+  <script>
+
+  if ()!(!window.screenTop && !window.screenY)) {
+    alert('Please open Browser in fullscreen');
+}
+  var elem = document.documentElement;
+  function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+  }
+}
+openFullscreen();
+</script>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+    function show1()
+    {
+      document.getElementById("ren1").src="rendition/2.png";
+    }
+
+    function show2()
+    {
+      document.getElementById("ren1").src="rendition/1.png";
+    }
+
+    function show3()
+    {
+      document.getElementById("ren1").src="rendition/3.png";
+    }
+
+    </script>
+
+
+    <div class="landing" id="home">
+      <img src="bg.png">
+      <div class="logo" >
+        <img src="sign.png"  data-tilt data-tilt-max='40' glare=true gyroscope=true>
+        <h3>AMAN PRIYADARSHI</h3>
+        <p>Hey, I am a multidisciplinary designer pursuing bachelors in Computer Science and Design.</p>
+      </div>
+    </div>
+
+    <div class="projects">
+
+      <h1 id="project">PROJECTS</h1>
+      <div class="rendition">
+        <img src="wall.png" >
+        <div class="r1">
+
+          <div class="ri">
+            <img id="ren_1" src="1.png" alt="mona lisa"  >
+          </div>
+
+        </div>
+
+        <div class="light">
+          <img src="light.png" class="light">
+        </div>
+        <div class="rendition_title">
+          <h1>THE RENDITION PROJECT</h1>
+          <h3>This was a personal project that I took up in the summer of 2020. As a part of this I recreated three very famous paintings : Mona Lisa by Leonardo da Vinci, The Scream by Edvard Munch, and The Starry night by Vincent Van Gogh. I gave by personal artistic touch to all these artworks. </h3>
+
+          <div class="carousel">
+
+            <img id="i1" src="1.png" onclick="document.getElementById('ren_1').src='1.png'">
+            <img id="i2" src="2.png" onclick="document.getElementById('ren_1').src='2.png'">
+            <img id="i3" src="3.png" onclick="document.getElementById('ren_1').src='3.png'">
+
+
+          </div>
+
+
+        </div>
+        <div class="btn from-top"> <a href="https://www.behance.net/gallery/113842169/Rendition-Series-Digital-art" target="_blank">VIEW MORE</a></div>
+      </div>
+
+      <div class="fugo">
+        <video width="168" height="auto" autoplay loop>
+            <source src="fugo_vid.mp4" type="video/mp4" loop="true">
+        </video>
+          <img src="phone.png" alt="">
+          <div class="fugologo">
+            <img src="logo.png"  height="220px" >
+          </div>
+          <div class="fugo_title">
+            <h1>FUGO</h1>
+            <h3>Designed the Visual Identity, User Interface, and Framework for an application - FUGO - Fuel on the Go. The project was done as the final group project for the courses Visual Design and Communication and Design Perspectives and Processes in the third Semester of Computer Science and Design(BTech) course at Indraprastha Institute of Information Technology Delhi.
+            </h3>
+          </div>
+          <div class="btn2 from-top2"> <a href="https://www.behance.net/gallery/113700507/FUGO-framework-design" target="_blank">VIEW MORE</a></div>
+      </div>
+
+
+      <div class="covid">
+          <div class="covid_title">
+            <img src="covid.png" alt="">
+            <h1>CORONAVIRUS</h1>
+            <h2>DENSITY MAP</h2>
+            <h3>Designed a web based application using HTML, CSS and Javascript as a part of project work in the course Designing Interactive Systems. The application fetches data from a covid virus case distribution data API present in form of a JSON file, parses the data and presents it on the map of world.
+            </h3>
+            <div class="container">
+              <div class="mockup mockup-macbook loaded opened">
+                <div class="part top">
+                  <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-top.svg" alt="" class="top">
+                  <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" class="cover">
+
+                  <video autoplay>
+                    <source src="vid2.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="part bottom">
+                  <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg" alt="" class="cover">
+                  <img src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-bottom.svg" alt="" class="bottom">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn3 from-top3"> <a href="covid/index.html" target="_blank">VIEW MORE</a></div>
+      </div>
+
+
+    </div>
+
+    <div class="connect" >
+
+      <img src="me.png" alt="">
+
+      <div class="wrapper">
+      <h2 class="effect-wrapper" id="me">Hey, I am Aman Priyadarshi <br>
+      I am a second year undergraduate student at Indraprastha institute of Information Technology Delhi, pursuing my bachelors in Computer Science and Design.<br><br>I love to create”, said the twelve year old me and says the seventeen year old me too. Be it an artwork, a solution to some random problem or a robot, I love creating all of these with innovative ideas. I like exploring various domains of design and am particularly interested in <br><span class="typed"></span><span class="cursor">&nbsp;</span></h2>
+      </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+    const typedSpan = document.querySelector(".typed") // Storing the Span of HTML of Class 'typed' for changing the text
+const totype = ["Digital Illustrations", "Motion Graphics", "UI UX", "Sleeping"] // Array in which all of the words which have to be typed are stored
+
+const delayTyping_char = 80; // 200ms will be waited before next Character of the Text is typed
+const delayErasing_text = 50; // 100ms will be waited before removing the next character
+const delayTyping_text = 500; // 2500ms will be waited before everything is erased & next text is typed
+
+let totypeIndex = 0; // Index of The text which is being typed
+let charIndex = 0; // Index of The Character which is being typed
+
+
+function typeText() {
+if (charIndex < totype[totypeIndex].length) {
+typedSpan.textContent += totype[totypeIndex].charAt(charIndex); // Value of The Span in HTML is = the Character at the index of charIndex of the Text which is being typed
+charIndex++; // Adding 1 to charIndex
+setTimeout(typeText, delayTyping_char); // Calling typeText Until the charIndex is greater than the length of the Text which is being typed
+}
+else {
+setTimeout(eraseText, delayTyping_text); // if charIndex is Greater than length of the text which is being type then after the time setted (delayTyping_text) erase function will be called
+}
+}
+
+function eraseText() {
+if (charIndex > 0) {
+typedSpan.textContent = totype[totypeIndex].substring(0, charIndex-1); // substring(0, charIndex-1) here charIndex-1 is saying to select the text leaving one of last text behind
+charIndex = charIndex-1; // subtracting 1 from charIndex
+setTimeout(eraseText, delayErasing_text); // Will call eraseText() Function until the charIndex is not equal to 0
+}
+else {
+totypeIndex++; // If everything is erased then the totypeIndex will be increased and next text in Array (totype) will be typed
+
+if (totypeIndex >= totype.length) // If totypeIndex is equal to or greater than the number of text to be typed then
+  totypeIndex = 0; // totypeIndex will be 0 so that we can start from the first text in the array (toType) and
+  setTimeout(typeText, delayTyping_text); // after some delay presetted (delayTyping_text) typeText() Function is called
+}
+}
+
+window.onload = function() {
+if (totype[totypeIndex].length) setTimeout(typeText, delayTyping_text); // typeText() Function is called when everything is loaded
+}
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+    <div class="made">
+
+      <h1>THANKS FOR SCROLLING</h1>
+
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+    </script>
+
+
+    <div id="circularMenu" class="circular-menu ">
+
+      <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+        <i class="fa fa-plus"></i>
+      </a>
+
+      <menu class="items-wrapper">
+        <a href="https://www.linkedin.com/in/amanpriyadarshiart/" class="menu-item fa fa-linkedin" target="_blank"></a>
+        <a href="https://www.instagram.com/amanpriyadarshi_art/?hl=en" class="menu-item fa fa-instagram" target="_blank"></a>
+        <a href="https://www.behance.net/amanpriyadarshi1" class="menu-item fa fa-behance" target="_blank"></a>
+        <a href="https://dribbble.com/amanpriyadarshi" class="menu-item fa fa-dribbble"></a>
+      </menu>
+
+    </div>
+
+
+    <div id="circularMenu1" class="circular-menu circular-menu-left active">
+
+      <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <menu class="items-wrapper">
+        <a href="#home" class="menu-item fa fa-home"></a>
+        <a href="#project" class="menu-item fa fa-briefcase"></a>
+        <a href="#me" class="menu-item fa fa-user"></a>
+      </menu>
+
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
